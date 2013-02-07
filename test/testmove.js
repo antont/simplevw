@@ -13,8 +13,6 @@ posseq = [
 var i = 0; //counter for the stepping
 
 function testmove() {
-    print(".");
-    print(getObject);
     var ob = getObject("testobject");
     var nextpos = posseq[i % posseq.length];
     ob.move(nextpos[0],
